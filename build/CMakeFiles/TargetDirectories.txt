@@ -1,0 +1,2 @@
+/home/pako/study/GitHub/MediaPlayer/build/CMakeFiles/untitled.dir
+/home/pako/study/GitHub/MediaPlayer/build/CMakeFiles/untitled_automoc.dir
