@@ -9,150 +9,329 @@ Item {
         y: parent.height/2 - 115
         rows: 4; columns: 3; spacing: 5
 
-        Cell {
+        Rectangle {
             id:num1
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "1"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:num2
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "2"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:num3
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "3"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:num4
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "4"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:num5
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "5"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:num6
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "6"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:num7
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "7"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:num8
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "8"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:num9
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "9"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:empty
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: ""
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:num0
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
+
+            Text{
+                x:50
+                text: "0"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
         }
-        Cell {
+        Rectangle {
             id:backspace
-            cellSource: "back.png"
-            cellHeight: 50
-            cellWidth:  120
+            height: 50
+            width:  120
+            color: "#50FFFFFF"
+
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                }
+                onPressed: {
+                    parent.color = "#80FFFFFF"
+                }
+                onReleased: {
+                    parent.color = "#50FFFFFF"
 
                 }
             }
-        }
 
+            Text{
+                x:40
+                text: "<<"
+                font.family: "Helvetica"
+                font.pointSize: 28
+                color: "black"
+            }
+}
     }
 }

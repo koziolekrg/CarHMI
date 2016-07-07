@@ -83,6 +83,8 @@ Item {
         }
         Cell {
             cellSource: "/images/msg.png"
+            cellWidth: 100
+            cellHeight: 100
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
@@ -113,8 +115,8 @@ Item {
     Cell {
         x: parent.width - 200
         y: parent.height - 50
-        cellWidth: 100
-        cellHeight: 60
+        cellWidth: 110
+        cellHeight: 45
         cellSource: "/images/back.png"
 
         MouseArea {

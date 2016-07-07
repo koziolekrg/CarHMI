@@ -5,6 +5,11 @@ Item {
     height: 430
     id: weatherWindow
 
+    Image{
+        width: parent.width
+        height: parent.height
+        source: "/images/music_bcg.jpg"
+
     Rectangle {
         width: parent.width
         height: 50
@@ -34,12 +39,15 @@ Item {
    y: 300
    }
 
+    }
+
    Cell {
        x: parent.width - 200
        y: parent.height - 50
-       cellWidth: 100
-       cellHeight: 60
+       cellWidth: 110
+       cellHeight: 45
        cellSource: "/images/back.png"
+
         MouseArea {
             anchors.fill: parent
             onClicked: {

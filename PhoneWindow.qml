@@ -5,6 +5,10 @@ Item {
     height: 430
     id: phoneWindow
 
+    Image{
+        source:"/images/music_bcg.jpg"
+
+
     Rectangle {
         width: parent.width
         height: 50
@@ -34,15 +38,15 @@ Item {
     Cell {
         id:greenPhone
         y:100
-        x: parent.width - 160
-        cellSource: "back.png"
+        x: phoneWindow.width - 160
+        cellSource: "/images/green_phone.png"
     }
 
     Cell{
         id:redPhone
         y:100
         x: 40
-        cellSource: "back.png"
+        cellSource: "/images/red_phone.png"
     }
 
     Cell{
@@ -51,15 +55,14 @@ Item {
         x: 220
         cellWidth: 300
         cellHeight: 40
-        cellSource: "back.png"
 
     }
-
+   }
     Cell {
         x: parent.width - 200
         y: parent.height - 50
-        cellWidth: 100
-        cellHeight: 60
+        cellWidth: 110
+        cellHeight: 45
         cellSource: "/images/back.png"
 
         MouseArea {

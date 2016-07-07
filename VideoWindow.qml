@@ -6,6 +6,10 @@ Item {
     height: 430
     id: videoWindow
 
+    Image {
+    source: "/images/music_bcg.jpg"
+
+
     Rectangle {
         width: parent.width
         height: 50
@@ -27,12 +31,12 @@ Item {
         }
     }
 
-    Rectangle {
-        x:50
-        y:70
-        width: 650
-        height: 320
-        color: "black"
+    Image {
+        x:5
+        y:45
+        width: 740
+        height: 340
+        source: "/images/video_panel.png"
 
         MediaPlayer {
             id: player
@@ -47,7 +51,10 @@ Item {
         VideoOutput {
             id: videoOutput
             source: player
-            anchors.fill: parent
+            x:45
+            y:50
+            width: parent.width - 90
+            height: parent.height - 90
         }
     }
 
@@ -58,7 +65,7 @@ Item {
 
         Cell {
             id: prevoius
-            cellSource: "back.png"
+            cellSource: "/images/video_prv.png"
             cellWidth: 80
             cellHeight: 50
 
@@ -71,7 +78,7 @@ Item {
         }
         Cell {
             id: pause
-            cellSource: "back.png"
+            cellSource: "/images/video_pause.png"
             cellWidth: 80
             cellHeight: 50
             MouseArea{
@@ -83,7 +90,7 @@ Item {
         }
         Cell {
             id: play
-            cellSource: "back.png"
+            cellSource: "/images/video_play.png"
             cellWidth: 80
             cellHeight: 50
             MouseArea{
@@ -95,7 +102,7 @@ Item {
         }
         Cell {
             id: next
-            cellSource: "back.png"
+            cellSource: "/images/video_nxt.png"
             cellWidth: 80
             cellHeight: 50
             MouseArea{
@@ -106,12 +113,12 @@ Item {
             }
         }
     }
-
+}
     Cell {
         x: parent.width - 200
         y: parent.height - 50
-        cellWidth: 100
-        cellHeight: 60
+        cellWidth: 110
+        cellHeight: 45
         cellSource: "/images/back.png"
 
         MouseArea {

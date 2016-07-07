@@ -29,5 +29,25 @@
         <file>images/video.png</file>
         <file>images/weather.png</file>
         <file>images/back.png</file>
+        <file>images/icon_fw.png</file>
+        <file>images/icon_fw_pushed.png</file>
+        <file>images/icon_next.png</file>
+        <file>images/icon_next_pushed.png</file>
+        <file>images/icon_pause.png</file>
+        <file>images/icon_pause_pushed.png</file>
+        <file>images/icon_play.png</file>
+        <file>images/icon_play_pushed.png</file>
+        <file>images/music_panel.png</file>
+        <file>images/music_bcg.jpg</file>
+        <file>images/video_nxt.png</file>
+        <file>images/video_pause.png</file>
+        <file>images/video_play.png</file>
+        <file>images/video_prv.png</file>
+        <file>images/video_panel.png</file>
+        <file>images/icon_weather.png</file>
+        <file>images/icon_weather1.png</file>
+        <file>images/icon_weather2.png</file>
+        <file>images/green_phone.png</file>
+        <file>images/red_phone.png</file>
     </qresource>
 </RCC>

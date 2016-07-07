@@ -4,11 +4,10 @@ Item {
     width: 750
     height: 300
 
-    Rectangle{
+    Item{
         width: 750
         height: 250
         id: temperature
-        color: "blue"
 
         Text{
             y:65
@@ -20,9 +19,9 @@ Item {
         }
 
 
-        Rectangle {
+        Image {
             id: weatherIcon
-            color: "red"
+            source: "/images/icon_weather.png"
             x:parent.width - 250
             y:35
             width: 120

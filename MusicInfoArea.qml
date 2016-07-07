@@ -9,16 +9,16 @@ Item {
     property string song_sec : player.second
     property string song_min : player.minute
 
-    Rectangle{
+    Image{
         id: infoArea
         width: 650
         height: 330
 
-        color:"black"
+        source: "/images/music_panel.png"
 
         Text{
             id: songTitle
-            y:30
+            y:40
             x:75
             text: "Title: "+song_title
             font.family: "Helvetica"
@@ -28,7 +28,7 @@ Item {
 
         Text{
             id: songArtist
-            y:65
+            y:75
             x:75
             text: " "
             font.family: "Helvetica"
@@ -38,7 +38,7 @@ Item {
 
         Text{
             id: songDuration
-            y:95
+            y:105
             x:75
             text: "Minutes: "+ song_min + "  Seconds: "+ song_sec
             font.family: "Helvetica"
@@ -49,7 +49,7 @@ Item {
         Rectangle {
             id: songIcon
             x: 450
-            y: 30
+            y: 40
             width: 110
             height: 110
             color: "white"

@@ -78,6 +78,26 @@ qrc_qml.cpp: ../images/setings.png
 qrc_qml.cpp: ../images/video.png
 qrc_qml.cpp: ../images/weather.png
 qrc_qml.cpp: ../images/back.png
+qrc_qml.cpp: ../images/icon_fw.png
+qrc_qml.cpp: ../images/icon_fw_pushed.png
+qrc_qml.cpp: ../images/icon_next.png
+qrc_qml.cpp: ../images/icon_next_pushed.png
+qrc_qml.cpp: ../images/icon_pause.png
+qrc_qml.cpp: ../images/icon_pause_pushed.png
+qrc_qml.cpp: ../images/icon_play.png
+qrc_qml.cpp: ../images/icon_play_pushed.png
+qrc_qml.cpp: ../images/music_panel.png
+qrc_qml.cpp: ../images/music_bcg.jpg
+qrc_qml.cpp: ../images/video_nxt.png
+qrc_qml.cpp: ../images/video_pause.png
+qrc_qml.cpp: ../images/video_play.png
+qrc_qml.cpp: ../images/video_prv.png
+qrc_qml.cpp: ../images/video_panel.png
+qrc_qml.cpp: ../images/icon_weather.png
+qrc_qml.cpp: ../images/icon_weather1.png
+qrc_qml.cpp: ../images/icon_weather2.png
+qrc_qml.cpp: ../images/green_phone.png
+qrc_qml.cpp: ../images/red_phone.png
 qrc_qml.cpp: ../qml.qrc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pako/study/GitHub/MediaPlayer/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_qml.cpp"

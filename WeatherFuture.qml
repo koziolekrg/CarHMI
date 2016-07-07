@@ -8,7 +8,7 @@ Item {
         width: 750
         height: 150
         id: temperature
-        color: "green"
+        color: "#30FFFFFF"
 
         Item{
         x:20
@@ -28,11 +28,11 @@ Item {
                 color:"white"
             }
 
-            Rectangle {
+            Image {
                 id: weatherIcon1
                 x:100
                 y:10
-                color: "red"
+                source: "/images/icon_weather1.png"
                 width: 70
                 height: 70
             }
@@ -56,11 +56,11 @@ Item {
                 color:"white"
             }
 
-            Rectangle {
+            Image {
                 id: weatherIcon2
                 x:100
                 y:10
-                color: "red"
+                source: "/images/icon_weather2.png"
                 width: 70
                 height: 70
             }
