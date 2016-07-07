@@ -5,21 +5,21 @@ Item {
         rows: 1; columns: 3; spacing: 25
         Cell {
             id:usb
-            cellHeight: 30
-            cellWidth: 30
-            cellSource: "back.png"
+            cellHeight: 50
+            cellWidth: 50
+            cellSource: "/images/usb_off.png"
         }
         Cell {
             id:cd
-            cellHeight: 30
-            cellWidth: 30
-            cellSource: "back.png"
+            cellHeight: 50
+            cellWidth: 50
+            cellSource: "/images/cd.png"
         }
         Cell {
             id:bluetooth
-            cellHeight: 30
-            cellWidth: 30
-            cellSource: "back.png"
+            cellHeight: 50
+            cellWidth: 50
+            cellSource: "/images/bluetooth.png"
         }
     }
 

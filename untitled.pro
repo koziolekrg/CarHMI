@@ -18,7 +18,8 @@ QML_IMPORT_PATH =
 # Default rules for deployment.
 include(deployment.pri)
 
-DISTFILES +=
+DISTFILES += \
+    images/music_bcg.jpg
 
 HEADERS += \
     musicplayer.h \

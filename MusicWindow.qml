@@ -87,8 +87,10 @@ Item {
         }
 
         MusicSource{
-            x: 90
-            y: parent.height - 80
+            x: 20
+            y: parent.height - 50
+            width: 230
+            height: 220
         }
 
         Cell {

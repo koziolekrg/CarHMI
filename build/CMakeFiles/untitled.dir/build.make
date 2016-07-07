@@ -98,6 +98,9 @@ qrc_qml.cpp: ../images/icon_weather1.png
 qrc_qml.cpp: ../images/icon_weather2.png
 qrc_qml.cpp: ../images/green_phone.png
 qrc_qml.cpp: ../images/red_phone.png
+qrc_qml.cpp: ../images/bluetooth.png
+qrc_qml.cpp: ../images/cd.png
+qrc_qml.cpp: ../images/usb_off.png
 qrc_qml.cpp: ../qml.qrc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pako/study/GitHub/MediaPlayer/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_qml.cpp"

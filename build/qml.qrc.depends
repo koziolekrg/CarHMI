@@ -49,5 +49,8 @@
         <file>images/icon_weather2.png</file>
         <file>images/green_phone.png</file>
         <file>images/red_phone.png</file>
+        <file>images/bluetooth.png</file>
+        <file>images/cd.png</file>
+        <file>images/usb_off.png</file>
     </qresource>
 </RCC>

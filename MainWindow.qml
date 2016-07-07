@@ -5,6 +5,11 @@ Item {
     height: 430
     id:mainWindow
 
+    Image{
+        width: parent.width
+        height: parent.height
+        source: "/images/music_bcg.jpg"
+
     Grid {
         x: parent.width/2 - 290
         y: parent.height/2 - 115
@@ -112,21 +117,9 @@ Item {
 
     }
 
-    Cell {
-        x: parent.width - 200
-        y: parent.height - 50
-        cellWidth: 110
-        cellHeight: 45
-        cellSource: "/images/back.png"
-
-        MouseArea {
-            anchors.fill: parent
-            onClicked: {
-                console.log(" CLICKED");
-            }
-        }
-
     }
+
+
 
 
 }
